@@ -52,6 +52,9 @@ You can also look for information at:
     Search CPAN
         http://search.cpan.org/dist/App-Birthday/
 
+    Repository
+        https://github.com/fouladi/App-Birthday
+
 LICENSE AND COPYRIGHT
 ---------------------
 
