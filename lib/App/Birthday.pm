@@ -3,7 +3,7 @@ our @EXPORT = qw/usage version send_mails verify_mails/;# Symbols to autoexport 
 use base qw/Exporter/;
 use Mail::Sender;
 
-our $VERSION = '0.3';
+our $VERSION = '0.4';
 
 sub send_mails {
     my ($name, $in_hr, $cfg_hr, $in_file) = @_;
@@ -95,7 +95,7 @@ For a complete documentation of `birthday`, see its POD.
 
 =head1 VERSION
 
-Version 0.3
+Version 0.4
 
 =cut
 

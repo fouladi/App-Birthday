@@ -35,7 +35,7 @@ my $input_hr = $json->decode( $input );
 my $conf_hr  = $json->decode( $conf );
 
 for (keys %$input_hr) {
-    if ($$input_hr{$_}{date} == $today or $opt{x}) {
+    if ($$input_hr{$_}{date} eq $today or $opt{x}) {
         if ($opt{y}){
             verify_mails( $_, $input_hr, $conf_hr, $opt{i} );
         } else {
